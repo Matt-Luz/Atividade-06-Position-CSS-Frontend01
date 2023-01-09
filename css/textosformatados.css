@@ -1,0 +1,57 @@
+    body{
+        background-color: lightgray;
+    }
+
+    .texto01{
+        background-color: black;
+        border-color: black;
+        color: white;
+        border-radius: 50px;
+        height: 30vh;
+        width: 950px;
+        text-align: right;
+        padding: 20px;
+        margin-left: 25vh;
+        margin-top: 60px;
+        text-transform: uppercase;
+    }
+
+    .texto02{
+        background-color: black;
+        border-color: black;
+        color: white;
+        height: 30vh;
+        width: 950px;
+        padding: 20px;
+        margin-left: 25vh;
+        text-transform: lowercase;
+        overflow: scroll;
+    }
+
+/* Menu pra troca de imagens */
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li{
+    display: inline;
+    /* float: left; */
+}
+
+li a{
+    border-color: yellowgreen;
+    background-color: yellowgreen;
+    color: black;
+    width: 100px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+li a:hover{
+    background-color: yellow;
+}
